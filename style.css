@@ -1,0 +1,48 @@
+body {
+  background-color: white;
+  font-size: 20px;
+  font-family: inherit;
+  text-align: left;
+  margin: 100px;
+  flex-basis: 100%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.byline {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h1 {
+text-align: center;
+margin-bottom: 50px;
+font-size: 40px;
+font-style: italic
+}
+
+.footer {
+  font-size: 15px;
+  text-align: center;
+  margin: 100px;
+}
+
+.chart-content {
+  display: flex;
+  max-width: 100%;
+}
+
+* FOR SMALLER SCREENS */
+@media (max-width: 768px) {
+.icon {
+    flex: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 30px;
+  }
